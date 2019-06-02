@@ -1,0 +1,43 @@
+[
+    {
+        "id": "01",
+        "img": "images/brand1.png",
+        "name": "美林"
+    },
+    {
+        "id": "02",
+        "img": "images/brand2.png",
+        "name": "美林"
+    },
+    {
+        "id": "03",
+        "img": "images/brand1.png",
+        "name": "美林"
+    },
+    {
+        "id": "04",
+        "img": "images/brand2.png",
+        "name": "美林"
+    },
+    {
+        "id": "05",
+        "img": "images/brand1.png",
+        "name": "美林"
+    },
+    {
+        "id": "06",
+        "img": "images/brand2.png",
+        "name": "美林"
+    },
+    {
+        "id": "07",
+        "img": "images/brand1.png",
+        "name": "美林"
+    },
+    {
+        "id": "08",
+        "img": "images/brand2.png",
+        "name": "美林"
+    }
+
+]

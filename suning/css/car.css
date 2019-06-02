@@ -1,0 +1,304 @@
+@charset "utf-8";
+.topCon,.titleCon,.showCon{width:990px;margin:0 auto;}
+
+/* top ***********************************************/
+#top{
+    width:100%;
+    height:35px;
+    background:#f5f5f5;
+    border-bottom:1px solid #eee;
+}
+.topCon{
+    height:35px;
+    background:#f5f5f5;
+}
+/* topLeft ***********************/
+.topCon .topLeft{
+    width:320px;
+    height:100%;
+    float:left;
+}
+.topCon .topLeft li{
+    float:left;
+    width:80px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+}
+.topCon .topLeft li a{
+    font-size:12px;
+    color:#666;
+}
+.topCon .topLeft li i{
+    font-size:12px;
+    color:#bbb;
+}
+.topCon .topLeft li:nth-child(1) i{
+    font-size:16px;
+    color:#666;
+}
+.topCon .topLeft .topSec div{
+    width:100px;
+    height:100px;
+    background:green;
+    position:absolute;
+    z-index:10;
+    display:none;
+}
+/* topRight ***********************/
+.topCon .topRight{
+    width:540px;
+    height:100%;
+    float:right;
+}
+.topCon .topRight li{
+    float:left;
+    height:36px;
+    line-height:35px;
+    padding:0 7px;
+}
+.topCon .topRight li a{
+    font-size:12px;
+    color:#666;
+}
+.topCon .topRight li i{
+    font-size:12px;
+    color:#bbb;
+}
+.topCon .topRight li:nth-child(5) a{
+    color:#f60;
+}
+.topCon .topRight li:nth-child(5) .icon-gouwuche{
+    color:#f60;
+}
+.topCon .topRight li:nth-child(5) span{
+    color:#f60;
+    font-size:12px;
+}
+.topCon .topRight .topRigSec div{
+    width:100px;
+    height:100px;
+    background:green;
+    position:absolute;
+    z-index:10;
+    display:none;
+}
+
+/* title ***********************************************/
+#title{
+    width:100%;
+    height:136px;
+}
+.titleCon{
+    height:136px;
+}
+.titleCon .titleLf{
+    width:190px;
+    height:114px;
+    padding-top:22px;
+    float:left;
+}
+.titleCon .titleLf h1{
+    width:190px;
+    height:60px;
+}
+.titleCon .titleLf p{
+    width:140px;
+    height:22px;
+    margin-top:18px;
+    line-height:22px;
+}
+.titleCon .titleLf p span{
+    float:left;
+    width:43px;
+    font-size:12px;
+    color:#666;
+}
+.titleCon .titleLf p select{
+    width:96px;
+    height:22px;
+    border:1px solid #bbb;
+    float:right;
+    font-size:12px;
+    color:#333;
+}
+.titleCon .titleRgt{
+    width:400px;
+    height:101px;
+    float:right;
+    padding-top:35px;
+}
+.titleCon .titleRgt section{
+    height:28px;
+    border:2px solid #f60;
+}
+.titleCon .titleRgt section i{
+    float:left;
+    width:34px;
+    height:28px;
+    background:palegreen;
+}
+.titleCon .titleRgt section input{
+    float:left;
+    width:284px;
+    height:28px;
+}
+.titleCon .titleRgt section span{
+    float:right;
+    width:78px;
+    height:28px;
+    background:#f60;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    line-height:28px;
+}
+
+
+/* show ***********************************************/
+#show{
+    width:100%;
+    overflow:hidden;
+}
+.showCon{
+    height:1000px;
+    overflow:hidden;
+}
+.showCon .showTle{
+    margin-top:3px;
+    height:32px;
+    border:1px solid #ddd;
+    border-top:3px solid #ddd;
+}
+.showCon .showGood{
+    margin-top:10px;
+    overflow:hidden;
+    border:1px solid #ddd;
+}
+.showCon .showGood section{
+    height:112px;
+    background:#fffbf2;
+    border-bottom:1px solid #ddd;
+    padding-top:15px;
+}
+.showCon .showGood section > div{
+    float:left;
+    height:97px;
+}
+.showCon .showGood section .goodChoice{
+    width:66px;
+    background:orange;
+}
+.showCon .showGood section .goodImg{
+    width:82px;
+}
+.showCon .showGood section .goodImg img{
+    width:80px;
+    height:80px;
+    border:1px solid #ccc;
+}
+.showCon .showGood section .goodInfo{
+    width:200px;
+    padding-left:15px;
+}
+.showCon .showGood section .goodInfo a{
+    float:left;
+    width:176px;
+    height:36px;
+    font-size:12px;
+    color:#333;
+}
+.showCon .showGood section .goodInfo p{
+    float:left;
+    width:90px;
+    height:16px;
+    border:1px solid #6e56e8;
+    border-radius:3px;
+    margin-top:27px;
+    font-size:12px;
+}
+.showCon .showGood section .goodInfo p span{
+    float:left;
+    height:100%;
+    text-align:center;
+}
+.showCon .showGood section .goodInfo p span:nth-child(1){
+    background:#6e56e8;
+    color:#fff;
+    width:58px;
+}
+.showCon .showGood section .goodInfo p span:nth-child(2){
+    background:#fff;
+    color:#6e56e8;
+    width:32px;
+}
+.showCon .showGood section .goodColor{
+    width:121px;
+    padding-left:20px;
+}
+.showCon .showGood section .goodColor span{
+    font-size:12px;
+    color:#999;
+    float:left;
+}
+.showCon .showGood section .goodPrice{
+    width:86px;
+    padding-right:20px;
+}
+.showCon .showGood section .goodPrice span{
+    font-size:12px;
+    color:#333;
+    float:left;
+}
+.showCon .showGood section .goodNum{
+    width:120px;
+}
+.showCon .showGood section .goodNum p{
+    width:68px;
+    height:20px;
+    border:1px solid #ccc;
+    margin:0 auto;
+    font-size:12px;
+    color:#333;
+}
+.showCon .showGood section .goodNum p span{
+    float:left;
+    width:20px;
+    height:100%;
+    text-align:center;
+    line-height:20px;
+}
+.showCon .showGood section .goodNum p .btnAdd{
+    float:right;
+}
+.showCon .showGood section .goodNum p em{
+    float:left;
+    width:28px;
+    text-align:center;
+    height:100%;
+    line-height:20px;
+}
+.showCon .showGood section .goodTotal{
+    width:104px;
+    padding-right:26px;
+}
+.showCon .showGood section .goodTotal span{
+    float:right;
+    font-size:12px;
+    color:#333;
+}
+.showCon .showGood section .goodTotal span:nth-child(1){
+    font-weight:bold;
+}
+.showCon .showGood section .goodOpt{
+    width:103px;
+    float:right;
+    padding-left:25px;
+}
+.showCon .showGood section .goodOpt span{
+    width:100px;
+    float:left;
+    font-size:12px;
+    color:#333;
+}

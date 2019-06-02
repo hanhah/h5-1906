@@ -1,0 +1,1226 @@
+@charset "utf-8";
+.advCon,.topCon,.titleCon,.rcdCon,.berCon,.psCon,.showCon,.tdyCon,.saleCon,.butCon,.guessCon,.infoCon{width:1190px;margin:0 auto;}
+
+.titleStyleC{
+    font-size:24px;
+    color:#333;
+    float:left;
+    line-height:24px;
+}
+.titleStyleE{
+    font-size:14px;
+    color:#999;
+    display:block;
+    float:left;
+    padding:6px 0 0 8px;
+}
+
+.brand{
+    height:100px;
+    background:#fff;
+    margin-top:5px;
+}
+.brand h2{
+    width:134px;
+    height:100px;
+    background:#fff;
+    float:left;
+    font-size:14px;
+    color:#333;
+    font-weight:bold;
+    line-height:100px;
+    text-align:center;
+}
+.brand section{
+    width:1056px;
+    height:100%;
+    float:left;
+}
+.brand section div{
+    width:132px;
+    height:100px;
+    float:left;
+    position:relative;
+}
+.brand section div img{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto; 
+}
+.brand section div p{
+    width:132px;
+    height:100px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    opacity:0;
+}
+.brand section div p span{
+    display:block;
+    font-size:12px;
+    background:#6e56e8;
+    width:50px;
+    text-align:center;
+    position:absolute;
+    transform:translate(41px,44px)
+}
+
+
+
+
+/* adv *******************************************/
+#adv{
+    width:100%;
+    background:#d0d5d8;
+}
+.advCon{
+    height:100px;
+    background:url('../images/adv1.jpg') no-repeat center;
+    position:relative;
+}
+.advCon .advBtn{
+    width:14px;
+    height:15px;
+    position:absolute;
+    top:15px;
+    right:15px;
+    background:url('../images/adv2.jpg') no-repeat center;
+}
+
+
+/* top ***********************************************/
+#top{
+    width:100%;
+    height:35px;
+    background:#f5f5f5;
+    border-bottom:1px solid #eee;
+}
+.topCon{
+    height:35px;
+    background:#f5f5f5;
+}
+/* topLeft ***********************/
+.topCon .topLeft{
+    width:320px;
+    height:100%;
+    float:left;
+}
+.topCon .topLeft li{
+    float:left;
+    width:80px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+}
+.topCon .topLeft li a{
+    font-size:12px;
+    color:#666;
+}
+.topCon .topLeft li i{
+    font-size:12px;
+    color:#bbb;
+}
+.topCon .topLeft li:nth-child(1) i{
+    font-size:16px;
+    color:#666;
+}
+.topCon .topLeft .topSec div{
+    width:100px;
+    height:100px;
+    background:green;
+    position:absolute;
+    z-index:10;
+    display:none;
+}
+/* topRight ***********************/
+.topCon .topRight{
+    width:540px;
+    height:100%;
+    float:right;
+}
+.topCon .topRight li{
+    float:left;
+    height:36px;
+    line-height:35px;
+    padding:0 8px;
+}
+.topCon .topRight li a{
+    font-size:12px;
+    color:#666;
+}
+.topCon .topRight li i{
+    font-size:12px;
+    color:#bbb;
+}
+.topCon .topRight li:nth-child(2) a{
+    color:#f60;
+}
+.topCon .topRight li:nth-child(6) a{
+    color:#f60;
+}
+.topCon .topRight li:nth-child(6) i{
+    color:#f60;
+}
+.topCon .topRight li:nth-child(6) span{
+    color:#f60;
+    font-size:12px;
+}
+.topCon .topRight .topRigSec div{
+    width:100px;
+    height:100px;
+    background:green;
+    position:absolute;
+    z-index:10;
+    display:none;
+}
+
+
+/* title ***********************************************/
+#title{
+    width:100%;
+    height:114px;
+}
+.titleCon{
+    height:114px;
+}
+.titleCon>img{
+    float:left;
+    padding-top:17px;
+}
+.titleCon .titleSer{
+    float:right;
+    width:480px;
+    height:100%;
+}
+.titleCon .titleSer div{
+    margin-top:30px;
+    height:36px;
+    border:2px solid #6e56e8;
+    line-height:36px;
+}
+.titleCon .titleSer div i{
+    margin-left:10px;
+    font-size:16px;
+    color:#ccc;
+}
+.titleCon .titleSer div input{
+    width:358px;
+    font-size:16px;
+}
+.titleCon .titleSer div span{
+    display:block;
+    float:right;
+    width:86px;
+    height:36px;
+    background:#6e56e8;
+    text-align:center;
+    line-height:40px;
+}
+.titleCon .titleSer div span a{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+}
+.titleCon .titleSer p{
+    margin-top:6px;
+}
+.titleCon .titleSer p a{
+    font-size:12px;
+    color:#999;
+    border-right:1px solid #ddd;
+    padding:0 8px 0 7px;
+}
+.titleCon .titleSer p a:nth-child(1){
+    padding-left:0;
+}
+.titleCon .titleSer p a:nth-child(8){
+    border-right:none;
+}
+.titleCon .titleSer p .blue{
+    color:#6e56e8;
+}
+
+
+/* record ***********************************************/
+#record{
+    width:100%;
+    height:36px;
+}
+.rcdCon{
+    height:36px;
+}
+.rcdCon p{
+    float:left;
+    height:36px;
+    line-height:36px;
+}
+.rcdCon .rcdLf{
+    width:174px;
+    font-size:14px;
+    color:#fff;
+    background:#6e56e8;
+    padding-left:16px;
+}
+.rcdCon .rcdCen{
+    width:160px;
+}
+.rcdCon .rcdCen img{
+    float:left;
+    margin:6px 8px 0 22px;
+}
+.rcdCon .rcdCen a{
+    font-size:14px;
+    color:#6e56e8;
+}
+.rcdCon .rcdRgt{
+    width:100px;
+    text-align:center;
+}
+.rcdCon .rcdRgt a{
+    font-size:14px;
+    color:#333;
+}
+
+
+/* banner ***********************************************/
+#banner{
+    width:100%;
+    height:360px;
+    overflow:hidden;
+}
+.berCon{
+    height:360px;
+}
+.berCon .berBgLf{
+    float:left;
+    margin-left:-300px;
+}
+.berCon .berBgRgt{
+    float:right;
+    margin-right:-300px;
+}
+.berCon .berBg{
+    width:1190px;
+    height:360px;
+    float:left;
+    position:relative;
+}
+.berCon .berBg .berImg li{
+    position:absolute;
+}
+.berCon .berBg .berImg img{
+    opacity:0;
+}
+.berCon .berBg .berSpan span{
+    display:block;
+    width:48px;
+    height:108px;
+    background:rgba(0,0,0,0.4);
+    position:absolute;
+    left:190px;
+    top:50%;
+    margin-top:-54px;
+    cursor:pointer;
+    font-size:40px;
+    color:rgba(255,255,255,0.8);
+    line-height:108px;
+    text-align:center;
+    display:none;
+}
+.berCon .berBg .berSpan span:nth-child(2){
+    left:898px;
+}
+
+.berCon .berBg .berRadius{
+    width:210px;
+    height:26px;
+    background:rgba(255,255,255,.5);
+    border-radius:105px;
+    position:absolute;
+    bottom:12px;
+    left:50%;
+    margin-left:-105px;
+}
+.berCon .berBg .berRadius li{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    border-radius:9px;
+    background:#fff;
+    margin: 4px 4px;
+    cursor:pointer;
+}
+
+.berCon .berTop .berNav{
+    width:190px;
+    height:360px;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+}
+.berCon .berTop .berNav .berNavList{
+    height:45px;
+}
+.berCon .berTop .berNav .berNavList p{
+    height:44px;
+    width:170px;
+    margin:0 auto;
+    line-height:44px;
+    border-bottom:1px solid #666;
+    background:url("../images/banner icon.jpg") no-repeat 0 12px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(2) p{
+    background-position:0 -32px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(3) p{
+    background-position:0 -79px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(4) p{
+    background-position:0 -123px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(5) p{
+    background-position:0 -165px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(6) p{
+    background-position:0 -213px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(7) p{
+    background-position:0 -258px;
+}
+.berCon .berTop .berNav .berNavList:nth-child(8) p{
+    background-position:0 -302px;
+}
+.berCon .berTop .berNav .berNavList p span{
+    font-size:12px;
+    color:#fff;
+    margin-left:30px;
+    font-weight:bold;
+}
+.berCon .berTop .berNav .berNavList p i a{
+    font-size:12px;
+    color:#ddd;
+    margin-left:8px;
+}
+.berCon .berTop .berNav .berNavList div{
+    width:780px;
+    height:360px;
+    background:#fff;
+    border:1px solid #ccc;
+    position:absolute;
+    top:0;
+    left:190px;
+    z-index:10;
+    display:none;
+    font-size:100px;
+}
+.berCon .berTop .berNavList div section{
+    padding:10px;
+    width:330px;
+    height:150px;
+    float:left;
+    margin:10px;
+}
+.berCon .berTop .berNavList div section h2{
+    height:30px;
+    border-bottom:1px solid #ccc;
+    line-height:30px;
+    color:#333;
+    font-size:14px;
+    font-weight:bold;
+}
+.berCon .berTop .berNavList div section ul li{
+    border-right:1px solid #ccc;
+    margin-top:12px;
+    padding:0 5px;
+    font-size:12px;
+    color:#ccc;
+    font-weight:normal;
+    float:left;
+}
+
+
+
+
+
+
+.berCon .berTop .berAdv{
+    width:230px;
+    height:306px;
+    background:#fff;
+    position:absolute;
+    top:50%;
+    margin-top:-153px;
+    right:15px;
+}
+.berCon .berTop .berAdv img{
+    width:180px;
+    margin: 0 auto;
+    padding-top:25px;
+}
+.berCon .berTop .berAdv p{
+    width:190px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:12px;
+    margin:0 auto;
+    padding-top:23px;
+}
+.berCon .berTop .berAdv span{
+    display:block;
+    width:100%;
+    font-size:22px;
+    color:#6e56e8;
+    text-align:center;
+    padding-top:8px;
+}
+
+.berCon .berBg .berRadius .active{
+    background:#6e56e8;
+}
+
+
+/* ps ***********************************************/
+#ps{
+    width:100%;
+    height:60px;
+    background:#f5f5f5;
+}
+.psCon{
+    height:60px;
+    background:#fff;
+}
+.psCon img{
+    float:left;
+}
+.psCon > img:nth-of-type(1){
+    margin-left:20px;
+}
+.psCon > div{
+    width:190px;
+    height:40px;
+    border:1px solid #ddd;
+    background:#fff;
+    float:right;
+    margin:9px 15px;
+    position:relative;
+}
+.psCon div img{
+    margin:6px 0 0 8px;
+}
+.psCon div span{
+    display:block;
+    float:left;
+    font-size:12px;
+    line-height:14px;
+    color:#666;
+    width:108px;
+    margin:7px 0 0 11px;
+}
+.psCon div i{
+    display:block;
+    float:left;
+    font-size:12px;
+    color:#666;
+    margin:16px 0 0 14px;
+}
+.psCon div p{
+    width:190px;
+    height:160px;
+    background:#fff;
+    position:absolute;
+    top:40px;
+    left:-1px;
+    border:1px solid #ddd;
+    border-top:none;
+    display:none;
+}
+.psCon div p img{
+    display:block;
+    width:128px;
+    margin:10px 0 0 30px;
+}
+
+
+/* show ***********************************************/
+#show{
+    width:100%;
+    height:180px;
+    background:#f5f5f5;
+}
+.showCon{
+    height:180px;
+}
+.showCon .showUl{
+    height:180px;
+    width:100%;
+}
+.showCon .showUl li{
+    float:left;
+    width:290px;
+    height:160px;
+    margin:20px 10px 0 0;
+    color:#301f68;
+}
+.showCon .showUl li a{
+    display:block;
+    width:290px;
+    height:160px;
+}
+.showCon .showUl li h2{
+    font-size:18px;
+    font-weight:bold;
+    padding:25px 0 6px 25px;
+}
+.showCon .showUl li span{
+    display:block;
+    float:left;
+    margin:0 8px 0 25px;
+    font-size:14px;
+}
+.showCon .showUl li em{
+    display:block;
+    float:left;
+    border-width:4px;
+    border-style:solid dashed dashed dashed;
+    border-color:transparent transparent transparent #301f68;
+    margin:6px 0 0 0;
+}
+
+
+/* today ***********************************************/
+#today{
+    width:100%;
+    height:502px;
+    background:#f5f5f5;
+}
+.tdyCon{
+    height:502px;
+}
+.tdyCon .tdyTle{
+    width:100%;
+    height:38px;
+    padding-top:40px;
+}
+.tdyCon .tdyBner{
+    height:355px;
+    position:relative;
+}
+.tdyCon .tdyBner section{
+    width:215px;
+    height:355px;
+    background:#fff;
+    float:left;
+    margin-right:10px;
+    padding-left:15px;
+}
+.tdyCon .tdyBner section img{
+    margin:15px 0 9px 0;
+}
+.tdyCon .tdyBner section p{
+    width:100px;
+    height:18px;
+    line-height:18px;
+    text-align:center;
+    border:1px solid #6e56e8;
+    font-size:12px;
+    color:#6e56e8;
+}
+.tdyCon .tdyBner section h3{
+    color:#f60;
+    font-size:14px;
+    font-weight:bold;
+    margin:12px 0 12px 0;
+}
+.tdyCon .tdyBner section h4{
+    width:200px;
+    color:#999;
+    font-size:12px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.tdyCon .tdyBner section h2{
+    font-size:22px;
+    color:#6e56e8;
+    margin-top:10px;
+    font-weight:bold;
+}
+.tdyCon .tdyBtn{
+    width:96px;
+    height:16px;
+    margin: 20px auto;
+}
+.tdyCon .tdyBtn .tdyBtnAct{
+    background:#6e56e8;
+}
+.tdyCon .tdyBtn li{
+    width:16px;
+    height:16px;
+    border-radius:8px;
+    margin:0 4px;
+    background:#ddd;
+    float:left;
+}
+.tdyCon .tdyBner .tdySpan{
+    width:100%;
+    height:126px;
+    position:absolute;
+    top:50%;
+    margin-top:-63px;
+    /* display:none; */
+}
+.tdyCon .tdyBner .tdySpan span{
+    display:block;
+    width:45px;
+    height:126px;
+    border:1px solid #ccc;
+    background:#fff;
+    font-size:30px;
+    line-height:126px;
+    text-align:center;
+    float:left;
+}
+.tdyCon .tdyBner .tdySpan .tdyNxt{
+    float:right;
+}
+
+/* sale ***********************************************/
+#sale{
+    width:100%;
+    height:800px;
+    background:#f5f5f5;
+}
+.saleCon{
+    height:800px;
+}
+.saleCon .saleTle{
+    height:40px;
+}
+.saleCon .saleTle img{
+    float:left;
+    height:20px;
+    padding:5px 0 0 0;
+}
+.saleCon .saleTle img:nth-of-type(1){
+    margin-left:10px;
+}
+
+.saleCon .saleTab{
+    height:653px;
+}
+.saleCon .saleTab .saleTabBtn{
+    height:60px; 
+    border-bottom:2px solid #6e56e8;
+}
+.saleCon .saleTab .saleTabBtn span{
+    display:block;
+    width:198px;
+    height:60px;
+    background:#fff;
+    float:left;
+    font-size:18px;
+    color:#222;
+    text-align:center;
+    line-height:60px;
+}
+.saleCon .saleTab .saleTabBtn span:nth-child(6){
+    width:200px;
+}
+.saleCon .saleTab .saleTabBtn .saleTabBtnAct{
+    background:#6e56e8;
+    color:#fff;
+}
+.saleCon .saleTab .saleTabShow{
+    height:593px;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn{
+    width:590px;
+    height:252px;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabLeft{
+    width:263px;
+    height:252px;
+    background:blue;
+    float:left;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabLeft img{
+    width:184px;
+    height:184px;
+    margin:32px 0 0 57px;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabRgt{
+    width:258px;
+    height:135px;
+    float:left;
+    margin: 54px 0 0 30px;
+    position:relative;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabRgt h3{
+    font-size:14px;
+    font-weight:bold;
+    width:250px;
+    line-height:18px;
+    float:left;
+    margin-top:5px;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabRgt h2{
+    position:absolute;
+    bottom:0;
+}
+.saleCon .saleTab .saleTabShow .saleTabOn .saleTabRgt h5{
+    float:left;
+    font-size:12px;
+    line-height:16px;
+    color:#999;
+    margin-top:5px;
+}
+.saleCon .saleTab .saleTabShow section{
+    width:231px;
+    height:320px;
+    background:#fff;
+    float:left;
+    margin:8px 8px 0 0;
+}
+.saleCon .saleTab .saleTabShow section>img{
+    width:200px;
+    height:200px;
+    margin: 0 auto;
+}
+.saleCon .saleTab .saleTabShow section > div{
+    width:200px;
+    height:105px;
+    margin:0 auto;
+}
+.saleCon .saleTab .saleTabShow section div h4{
+    width:86px;
+    height:18px;
+    border:1px solid #6e56e8;
+    border-radius:2px;
+    margin-bottom:16px;
+}
+.saleCon .saleTab .saleTabShow section div h4 span{
+    float:left;
+    font-size:12px;
+    color:#fff;
+    background:#6e56e8;
+    height:18px;
+    width:55px;
+    text-align:center;
+}
+.saleCon .saleTab .saleTabShow section div h4 b{
+    font-size:12px;
+    color:#6e56e8;
+    float:left;
+    margin-left:4px;
+}
+.saleCon .saleTab .saleTabShow section div img{
+    float:left;
+}
+.saleCon .saleTab .saleTabShow section div em{
+    float:left;
+    font-size:12px;
+    line-height:12px;
+    color:#999;
+    margin-left:10px;
+}
+.saleCon .saleTab .saleTabShow section div .saleTabWord{
+    font-size:12px;
+    color:#333;
+    float:left;
+    line-height:12px;
+    margin:8px 0 8px 0;
+    width:200px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.saleCon .saleTab .saleTabShow section div h2{
+    font-size:22px;
+    color:#6e56e8;
+}
+
+
+/* beauty ***********************************************/
+#beauty{
+    width:100%;
+    height:800px;
+    background:#f5f5f5;
+}
+.butCon{
+    height:800px;
+    padding-top:40px;
+}
+.butCon .brand{
+    float:left;
+}
+
+
+
+.CenTle{
+    height:26px;
+}
+.CenCon{
+    height:614px;
+    margin-top:10px;
+    background:orangered;
+}
+.CenCon .CenLf{
+    width:230px;
+    height:100%;
+    background:forestgreen;
+    float:left;
+    background:url("../images/but1.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.CenCon .CenLf ul{
+    width:204px;
+    height:140px;
+    margin:20px auto;
+}
+.CenCon .CenLf ul li{
+    width:58px;
+    height:58px;
+    background:#fff;
+    float:left;
+    margin:5px;
+    border-radius:29px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.CenCon .CenLf ul li a{
+    display:block;
+    font-size:12px;
+    color:#333;
+    width:25px;
+    margin:10px auto;
+}
+.CenCon .CenLf ul li a:hover{
+    color:blue;
+}
+
+/*tab********/
+.CenCon .CenPdt{
+    width:950px;
+    height:614px;
+    float:left;
+    margin-left:10px;
+}
+.CenCon .CenPdt .CenTab{
+    width:466px;
+    height:302px;
+    float:left;
+    margin:0 0 5px 6px;
+    background:#fff;
+}
+.CenCon .CenPdt .CenTab .CenTabBtn{
+    width:450px;
+    height:50px;
+    margin: 10px auto;
+}
+.CenCon .CenPdt .CenTab .CenTabBtn span{
+    display:block;
+    width:225px;
+    height:50px;
+    background:#f5f5f5;
+    float:left;
+    text-align:center;
+    line-height:50px;
+    font-size:18px;
+    color:#333;
+}
+.CenCon .CenPdt .CenTab .CenTabShow{
+    width:450px;
+    height:222px;
+    margin-left:8px;
+}
+.CenCon .CenPdt .CenTab .CenTabShow p{
+    width:450px;
+    height:222px;
+    display:none;
+}
+.CenCon .CenPdt .CenTab .CenTabShow p img{
+    width:100%;
+    height:100%;
+}
+.CenCon .CenPdt .CenTab .CenTabShow .CenTabShowAct{
+    display:block;
+}
+.CenCon .CenPdt .CenTab .CenTabBtn .CenTabBtnAct{
+    background:#6e56e8;
+    color:#fff;
+}
+
+/*字符串拼接********/
+.CenCon .CenPdt section{
+    width:230px;
+    height:302px;
+    background:#fff;
+    float:left;
+    margin:0 0 5px 6px;
+    position:relative;
+}
+.CenCon .CenPdt section img{
+    width:180px;
+    height:180px;
+    position: absolute;
+    top:10px;
+    left:25px;
+}
+.CenCon .CenPdt section div{
+    width:200px;
+    height:100px;
+    position: absolute;
+    transform:translate(15px,180px);
+    z-index:10;
+}
+.CenCon .CenPdt section p{
+    display:inline-block;
+    padding:3px;
+    border:1px solid #6e56e8;
+    font-size:12px;
+    line-height:12px;
+    color:#6e56e8;
+}
+.CenCon .CenPdt section h3{
+    font-size:14px;
+    color:#f60;
+    font-weight:bold;
+    margin:3px 0 3px 0;
+}
+.CenCon .CenPdt section h4{
+    font-size:12px;
+    color:#333;
+    width:200px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.CenCon .CenPdt section h2{
+    font-size:24px;
+    color:#6e56e8;
+    margin-top:7px;
+}
+
+
+
+/* guess ***********************************************/
+#guess{
+    width:100%;
+    height:1262px;
+    background:#f5f5f5;
+}
+.guessCon{
+    height:1262px;
+}
+.guessCon .gesTle{
+    height:84px;
+    padding-top:30px;
+}
+.guessCon .gesTle img{
+    margin:0 auto;
+}
+.guessCon .gesPdt{
+    height:1040px;
+}
+.guessCon .gesPdt section{
+    width:230px;
+    height:325px;
+    background:#fff;
+    padding-top:15px;
+    position:relative;
+    float:left;
+    margin:0 10px 10px 0;
+}
+.guessCon .gesPdt section img{
+    width:200px;
+    height:200px;
+    margin:15px;
+}
+.guessCon .gesPdt section div{
+    width:200px;
+    height:86px;
+    position:absolute;
+    bottom:23px;
+    left:15px;
+}
+.guessCon .gesPdt section div h3{
+    font-size:14px;
+    color:#f60;
+    font-weight:bold;
+}
+.guessCon .gesPdt section div p{
+    font-size:12px;
+    color:#333;
+    margin:10px 0 10px 0;
+}
+.guessCon .gesPdt section div h4{
+    font-size:24px;
+    color:#6e56e8;
+}
+.guessCon .gesBtm{
+    height:70px;
+    position:relative;
+}
+.guessCon .gesBtm img{
+    float:left;
+    height:70px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    margin:auto;
+}
+
+
+
+/* info ***********************************************/
+#info{
+    width:100%;
+    height:292px;
+    background:#6e56e8;
+}
+.infoCon{
+    height:292px;
+}
+.infoCon .infoLf{
+    width:210px;
+    height:272px;
+    /* background:orange; */
+    float:left;
+    padding-top:20px;
+}
+.infoCon .infoLf h2{
+    width:185px;
+    height:50px;
+    background:url('../images/info1.png') no-repeat;
+    background-position:0 -130px;
+}
+.infoCon .infoLf p{
+    font-size:12px;
+    color:#fff;
+    margin-top:20px;
+}
+
+
+.infoCon .infoCen{
+    width:650px;
+    height:100%;
+    float:left;
+}
+.infoCon .infoCen div{
+    width:520px;
+    margin:20px 0 0 130px;
+}
+.infoCon .infoCen div ul{
+    float:left;
+    margin-right:72px;
+}
+.infoCon .infoCen div ul .infoCenTle{
+    margin-bottom:23px;
+    font-size:14px;
+    color:#fff;
+}
+.infoCon .infoCen div ul li a{
+    font-size:12px;
+    color:#fff;
+}
+
+.infoCon .infoRgt{
+    width:328px;
+    height:200px;
+    border-left:1px solid #bfb2ea;
+    float:right;
+    margin-top:20px;
+}
+.infoCon .infoRgt section{
+    width:100px;
+    height:100%;
+    margin-left:50px;
+    float:left;
+}
+.infoCon .infoRgt section img{
+    width:100px;
+    height:100px;
+}
+.infoCon .infoRgt section a{
+    display:block;
+    line-height:30px;
+    text-align:center;
+    height:30px;
+    background:#fff;
+    border-radius:5px;
+    font-size:12px;
+}
+.infoCon .infoRgt section p{
+    height:18px;
+    font-size:12px;
+    margin:30px 0 20px 0;
+    color:#fff;
+}
+
+
+/* option ***********************************************/
+#option{
+    width:35px;
+    height:100%;
+    background:#383838;
+    position:fixed;
+    right:0;
+    top:0;
+    z-index:30;
+    padding-top:200px;
+}
+.optCon{
+    height:450px;
+    /* background:pink; */
+}
+.optCon .optCar{
+    height:116px;
+    /* background:orange; */
+}
+.optCon .optCar a{
+    float:left;
+    width:12px;
+    font-size:12px;
+    color:#fff;
+    padding:0 11px;
+}
+.optCon .optCar span{
+    float:left;
+    width:14px;
+    font-size:14px;
+    padding:2px 6px;
+    background:#dd0000;
+    color:#fff;
+    font-weight:bold;
+    margin:5px 0 0 5px;
+    text-align:center;
+    border-radius:5px;
+}
+
+
+/* roll ***********************************************/
+#roll{
+    width:35px;
+    height:400px;
+    position:fixed;
+    left:0;
+    top:50px;
+    z-index:100;
+    display:none;
+}
+#roll section a{ 
+    display:block;
+    width:25px;
+    height:25px;
+    background:url("../images/roll1.png") no-repeat;
+    background-position:center;
+    margin:50px auto;
+}
+#roll section .rollAct{
+    background:url("../images/roll2.png") no-repeat;
+}
+

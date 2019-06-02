@@ -1,0 +1,170 @@
+@charset "utf-8";
+.headCon,.showCon{width:992px;margin:0 auto;}
+
+
+/* head *****************************************/
+#head{
+    height:90px;
+    background:#f8f8f8;
+}
+.headCon{
+    height:87px;
+    border-bottom:3px solid #ff9900;
+}
+.headCon h1{
+    width:193px;
+    height:62px;
+    transform:translate(0,12px);
+    background:url('../images/r1.png') no-repeat;
+    background-position:0 -13px;
+    float:left;
+}
+.headCon h2{
+    float:left;
+    width:72px;
+    height:87px;
+    margin-left:22px;
+    line-height:87px;
+    text-align:center;
+    font-size:18px;
+    color:#333;
+}
+.headCon p{
+    float:right;
+    width:140px;
+    height:40px;
+    padding-top:47px;
+}
+.headCon p a{
+    font-size:12px;
+    color:#333;
+}
+
+
+/* show *****************************************/
+#show{
+    height:442px;
+    background:#f8f8f8;
+}
+.showCon{
+    height:396px;
+    background:#fff;
+    padding-top:46px;
+}
+.showCon .showForm{
+    width:377px;
+    height:350px;
+    margin:0 auto;
+}
+.showCon .showForm p{
+    height:20px;
+    line-height:20px;
+}
+.showCon .showForm p a{
+    font-size:12px;
+    color:#222;
+}
+.showCon .showForm form{
+    height:293px;
+    background:#fff;
+    margin-top:16px;
+    position:relative;
+}
+.showCon .showForm form section{
+    height:40px;
+    border:1px solid #ccc;
+}
+.showCon .showForm form section label{
+    float:left;
+    width:86px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:12px;
+    color:#333;
+}
+.showCon .showForm form section input{
+    float:left;
+    height:100%;
+    font-size:12px;
+}
+.showCon .showForm form button{
+    width:100%;
+    height:40px;
+    background:#ff6600;
+    border:none;
+    color:#fff;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+
+
+.showCon .showForm form .phone i{
+    float:left;
+    margin:10px 0 0 0;
+    color:#1afa29;
+    font-size:20px;
+    display:none;
+}
+.showCon .showForm form .phone span{
+    color:red;
+    margin-top:4px;
+}
+
+.showCon .showForm form .code{
+    margin:26px 0 30px 0;
+}
+.showCon .showForm form .code .codeInput{
+    float:left;
+    width:120px;
+}
+.showCon .showForm form .code b{
+    float:left;
+    width:69px;
+    height:40px;
+    font-size:22px;
+    text-align:center;
+    line-height:40px;
+    color:#fff;
+}
+.showCon .showForm form .code .codeBtn{
+    float:left;
+    width:100px;
+    background:#f5f5f5;
+    border-left:1px solid #ccc;
+}
+.showCon .showForm form .code span{
+    color:red;
+    margin-top:4px;
+}
+
+
+
+.showCon .showForm form .pwd input{
+    width:288px;
+}
+.showCon .showForm form .pwd span{
+    color:#666;
+    margin-top:4px;
+}
+
+
+
+
+
+
+.showCon .showForm span{
+    float:left;
+    font-size:12px;
+    color:#ff6600;
+}
+
+
+
+/* info *****************************************/
+#info{
+    height:220px;
+    background:#f8f8f8;
+}
